@@ -32,7 +32,7 @@ apportico.github.io/
 
 ## 🌐 Deployment
 
-This website is deployed using GitHub Pages. The site is automatically built and deployed from the main branch.
+This website is deployed using GitHub Pages. Since this repository is named `apportico.github.io`, GitHub Pages automatically serves the content from the `main` branch.
 
 **Live Site**: https://apportico.github.io
 
