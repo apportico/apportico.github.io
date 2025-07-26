@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="15" fill="url(#grad1)" stroke="#1E40AF" stroke-width="1"/>
+  
+  <!-- Letter "A" for Apportico -->
+  <path d="M8 24 L12 12 L20 12 L24 24 M10 20 L22 20" 
+        stroke="white" 
+        stroke-width="2" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Code brackets -->
+  <path d="M6 8 L10 8 L10 10 M6 24 L10 24 L10 22" 
+        stroke="white" 
+        stroke-width="1.5" 
+        stroke-linecap="round" 
+        fill="none"/>
+  <path d="M22 8 L26 8 L26 10 M22 24 L26 24 L26 22" 
+        stroke="white" 
+        stroke-width="1.5" 
+        stroke-linecap="round" 
+        fill="none"/>
+</svg> 
