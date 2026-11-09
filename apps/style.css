@@ -3,3 +3,5 @@
 @media(max-width:400px){h4{font-size:32px;letter-spacing:-1.4px}.hero-art .art-caption{bottom:-15px}}
 
 .official-logo{display:block;object-fit:contain;border-radius:8px;flex-shrink:0}footer .brand{gap:12px}@media(max-width:760px){header .official-logo{width:44px;height:44px}header .brand{font-size:21px;gap:9px}footer .official-logo{width:40px;height:40px}}
+
+.product-3 .product-visual{background:#d9d0ee}.product-4 .product-visual{background:#f0dfb4}.product-5 .product-visual{background:#c9e8dc}
