@@ -1,0 +1,80 @@
+[
+  {
+    "slug": "whenlet",
+    "name": "Whenlet",
+    "category": "PRODUCTIVITY",
+    "icon": "/apps/assets/6831935705.jpg",
+    "headline": "Remember when.<br>Get on with now.",
+    "description": "Keep track of the last time you did the everyday things. A simple history, gentle intervals, and no streaks to keep alive.",
+    "store": "https://apps.apple.com/us/app/whenlet/id6831935705",
+    "publisher": "Eduard Simonyan",
+    "screenshot": "/apps/assets/6831935705-screen.jpg",
+    "label": "Last-done tracking",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/whenlet/id6831935705\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Whenlet on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+  },
+  {
+    "slug": "dimensions-planner",
+    "name": "Dimensions Planner",
+    "category": "UTILITIES",
+    "icon": "/apps/assets/6831661912.jpg",
+    "headline": "Every ratio.<br>Just right.",
+    "description": "Calculate dimensions, compare fit and crop, and keep your project sizes together.",
+    "store": "https://apps.apple.com/us/app/dimensions-planner/id6831661912",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6831661912-screen.jpg",
+    "label": "Ratios & dimensions",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/dimensions-planner/id6831661912\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Dimensions Planner on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+  },
+  {
+    "slug": "spin-sprout",
+    "name": "Spin Sprout",
+    "category": "UTILITIES",
+    "icon": "/apps/assets/6831902087.jpg",
+    "headline": "Less deciding.<br>More doing.",
+    "description": "Make a wheel, weight the choices, or run a group round without repeats. Give your next decision a spin.",
+    "store": "https://apps.apple.com/us/app/spin-sprout/id6831902087",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6831902087-screen.jpg",
+    "label": "Choices & group rounds",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/spin-sprout/id6831902087\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Spin Sprout on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+  },
+  {
+    "slug": "daycue",
+    "name": "Daycue",
+    "category": "UTILITIES",
+    "icon": "/apps/assets/6832012323.jpg",
+    "headline": "Your words.<br>Right on time.",
+    "description": "Put personal cues on your Home Screen and Lock Screen, with a different message for each part of your day.",
+    "store": "https://apps.apple.com/us/app/daycue-widget-cues/id6832012323",
+    "publisher": "Eduard Simonyan",
+    "screenshot": "/apps/assets/6832012323-screen.jpg",
+    "label": "Scheduled widget cues",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/daycue-widget-cues/id6832012323\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Daycue on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+  },
+  {
+    "slug": "note-porch",
+    "name": "Note Porch",
+    "category": "UTILITIES",
+    "icon": "/apps/assets/6832109392.jpg",
+    "headline": "A little note.<br>Always in view.",
+    "description": "Keep useful notes close at hand with Home Screen and Lock Screen widgets. Choose one note or follow a daily plan.",
+    "store": "https://apps.apple.com/us/app/note-porch/id6832109392",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6832109392-screen.jpg",
+    "label": "Notes on your screen",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/note-porch/id6832109392\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Note Porch on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+  },
+  {
+    "slug": "pivotile",
+    "name": "Pivotile",
+    "category": "GAMES",
+    "icon": "/apps/assets/6832112459.jpg",
+    "headline": "Make room.<br>Find your next move.",
+    "description": "Place blocks, clear lines, and earn pivots to turn a piece when you need it. A calm, offline puzzle with no ads.",
+    "store": "https://apps.apple.com/us/app/pivotile/id6832112459",
+    "publisher": "Eduard Simonyan",
+    "screenshot": "/apps/assets/6832112459-screen.jpg",
+    "label": "Block puzzles with a twist",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/pivotile/id6832112459\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Pivotile on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+  }
+]

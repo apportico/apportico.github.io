@@ -1,0 +1,25 @@
+"""Generate static app pages and home cards. Python standard library only."""
+from pathlib import Path
+import json,html
+root=Path(__file__).resolve().parent.parent
+apps=json.loads((root/'apps/catalog.json').read_text())
+e=html.escape
+arrow='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg>' 
+header='''<header class="wrap"><a class="brand" href="/" aria-label="Apportico home"><img class="official-logo" src="/apps/assets/apportico-logo.png" alt="" width="56" height="56">apportico</a><nav aria-label="Main navigation"><a href="/#about">The studio</a><a href="/#apps" class="nav-pill">All apps <span aria-hidden="true">→</span></a></nav></header>'''
+footer='''<footer class="wrap"><a href="/" class="brand"><img class="official-logo" src="/apps/assets/apportico-logo.png" alt="" width="44" height="44">apportico</a><span>Small apps. More possibility.</span><a href="/#apps">Back to the collection ↑</a></footer>'''
+cards=[]
+for i,a in enumerate(apps):
+    url=f'/apps/{a["slug"]}/'
+    cards.append(f'''<article class="app-card product-{i}" id="{a['slug']}"><a class="card-art" href="{url}" aria-label="Explore {e(a['name'])}"><img src="{a['icon']}" alt="" width="112" height="112" loading="lazy"><span class="card-art-label">{e(a['label'])}</span><span class="card-arrow" aria-hidden="true">{arrow}</span></a><div class="card-copy"><span class="category">{a['category']}</span><h3><a href="{url}">{e(a['name'])}</a></h3><p>{a['description']}</p><div class="card-actions"><a class="details-link" href="{url}" aria-label="View {e(a['name'])} details">View details <span aria-hidden="true">→</span></a><a class="card-store" href="{a['store']}" target="_blank" rel="noopener" aria-label="Get {e(a['name'])} on the App Store (opens in new tab)">App Store <span aria-hidden="true">{arrow}</span></a></div></div></article>''')
+    support=root/a['slug']/'support.html'
+    links=''
+    if support.exists():
+        links=f'<a href="/{a["slug"]}/support.html">Support</a><a href="/{a["slug"]}/privacy.html">Privacy</a>'
+    related=''.join(f'<a class="related-app" href="/apps/{b["slug"]}/"><img src="{b["icon"]}" alt="" width="44" height="44"><span>{e(b["name"])}</span><span aria-hidden="true">{arrow}</span></a>' for b in apps if b!=a)
+    title=f'{a["name"]} | Apportico'
+    page=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101114"><title>{e(title)}</title><meta name="description" content="{e(a['description'],quote=True)}"><link rel="canonical" href="https://apportico.com{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(a['description'],quote=True)}"><meta property="og:type" content="website"><meta property="og:url" content="https://apportico.com{url}"><meta property="og:image" content="https://apportico.com{a['icon']}"><meta name="twitter:card" content="summary"><link rel="icon" href="/apps/assets/apportico-logo.png"><link rel="stylesheet" href="/apps/style.css"></head><body><a class="skip" href="#app">Skip to app details</a>{header}<main id="app" class="app-detail wrap"><a class="back-link" href="/#apps">← All apps</a><section class="detail-hero product-{i}" aria-labelledby="app-name"><div class="detail-copy"><div class="detail-identity"><img src="{a['icon']}" alt="{e(a['name'])} app icon" width="76" height="76"><div><span class="category">{a['category']}</span><h1 id="app-name">{e(a['name'])}</h1></div></div><h2 class="detail-headline">{a['headline']}</h2><p class="detail-description">{a['description']}</p>{a['store_html']}<span class="publisher">Published by {e(a['publisher'])}</span><p class="detail-availability">See the App Store for current pricing, device compatibility and availability in your country.</p><nav class="support-links" aria-label="App information">{links}</nav></div><div class="detail-visual"><span class="visual-label">{e(a['label'])}</span><a class="screenshot-link" href="{a['screenshot']}" aria-label="View full-size {e(a['name'])} screenshot"><img class="detail-screen" src="{a['screenshot']}" alt="Official {e(a['name'])} App Store screenshot" width="300"></a><span class="screenshot-caption">A closer look · tap to view full size</span></div></section><section class="more-apps" aria-labelledby="more-heading"><div class="section-top"><div><span class="kicker">MORE FROM APPORTICO</span><h2 id="more-heading">Find something else you’ll love.</h2></div><a href="/#apps" class="details-link">All apps →</a></div><div class="related-grid">{related}</div></section></main>{footer}</body></html>'''
+    dest=root/'apps'/a['slug']; dest.mkdir(exist_ok=True);(dest/'index.html').write_text(page+'\n')
+home=(root/'apps/home-template.html').read_text().replace('{{CATALOG}}','<div class="app-grid">'+''.join(cards)+'</div>')
+home=home.replace('THE COLLECTION / 01—06',f'THE COLLECTION / {len(apps):02} APPS')
+(root/'index.html').write_text(home+'\n')
+print(f'Generated homepage and {len(apps)} app pages')

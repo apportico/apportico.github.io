@@ -47,4 +47,7 @@ coverage/
 
 # Temporary folders
 tmp/
-temp/ 
+temp/
+# Local preview only
+.openai/
+dist/
