@@ -30,4 +30,4 @@ for a in apps:
  assert (root/'apps'/a['slug']/'index.html').exists()
 assert (root/'CNAME').read_text().strip()=='apportico.com'
 assert 'window.location.replace' in (root/'apps/index.html').read_text()
-print('PASS: 6 app routes; all local links/assets/anchors; one H1 per page; CNAME; legacy redirect')
+print(f'PASS: {len(apps)} app routes; all local links/assets/anchors; one H1 per page; CNAME; legacy redirect')

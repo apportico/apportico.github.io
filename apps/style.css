@@ -12,3 +12,6 @@
 @media(max-width:760px){.app-grid{gap:18px}.detail-hero{grid-template-columns:1fr;padding-top:6px;gap:35px}.detail-headline{font-size:44px}.detail-description{font-size:16px}.detail-visual{padding-inline:26px}.support-links a:first-child{display:inline-flex}.related-grid{grid-template-columns:1fr}.detail-identity h1{font-size:32px}.detail-identity img{width:64px;height:64px}.detail-hero .store{min-height:52px}.more-apps h2{max-width:none}.app-detail .section-top{margin-bottom:15px}.app-detail .more-apps .details-link{margin-top:10px}}
 @media(max-width:560px){.app-grid{grid-template-columns:1fr}.card-art{height:160px}.card-art img{width:90px;height:90px;border-radius:21px}.card-copy{padding:20px}.card-copy p{margin-bottom:15px}.detail-headline{font-size:39px}.detail-identity h1{font-size:29px}.card-actions{gap:16px}.card-store{padding:13px 16px}}
 .app-card{grid-column:auto}.card-arrow svg,.card-store svg{width:16px;height:16px;vertical-align:middle}.card-arrow svg{width:22px;height:22px}
+
+/* Tumblepatch: warm accent within the shared gallery. */
+.product-6 .card-art,.product-6 .detail-visual{background:#f4d4a6}
