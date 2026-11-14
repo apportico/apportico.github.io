@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: #f5eedb;
+  color: #213b2e;
+  font: 17px/1.65 system-ui, sans-serif;
+}
+main {
+  max-width: 39rem;
+  padding: 2rem 1.25rem 4rem;
+  margin: auto;
+}
+h1, h2 { font-family: Georgia, serif; line-height: 1.2; }
+a { color: #245f4c; text-underline-offset: 0.16em; }
