@@ -1,0 +1,6 @@
+:root{color-scheme:light dark;--paper:#fff4e8;--ink:#213a34;--link:#82382b}
+@media(prefers-color-scheme:dark){:root{--paper:#211a18;--ink:#fff0dd;--link:#ffc5ad}}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.65 system-ui,sans-serif}
+main{max-width:42rem;margin:0 auto;padding:clamp(24px,6vw,64px)}
+h1{font:600 clamp(2rem,6vw,3rem)/1.1 ui-serif,Georgia,serif;margin:1rem 0}
+h2{font-size:1.2rem;margin-top:2rem}a{color:var(--link);text-underline-offset:3px}
