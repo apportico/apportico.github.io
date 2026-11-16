@@ -1,0 +1,8 @@
+:root { color-scheme: dark; font: 18px/1.6 system-ui, sans-serif; background: #0d1316; color: #f3e6cc; }
+body { margin: 0; }
+main { max-width: 41rem; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+nav { display: flex; justify-content: space-between; gap: 1rem; border-bottom: 1px solid #3a4448; padding-bottom: 1rem; }
+h1 { font-size: clamp(2rem, 7vw, 3.2rem); line-height: 1.06; color: #ffc56b; }
+h2 { font-size: 1.15rem; margin-top: 2rem; color: #fff1d6; }
+a { color: #ffb347; text-underline-offset: .17em; }
+ul { padding-inline-start: 1.2rem; }
