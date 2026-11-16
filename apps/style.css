@@ -15,3 +15,10 @@
 
 /* Tumblepatch: warm accent within the shared gallery. */
 .product-6 .card-art,.product-6 .detail-visual{background:#f4d4a6}
+
+/* Recent catalog additions use the same card and detail layout. */
+.product-7 .card-art,.product-7 .detail-visual{background:#d9dce9}
+.product-8 .card-art,.product-8 .detail-visual{background:#d8e7d3}
+.product-9 .card-art,.product-9 .detail-visual{background:#e8d9c4}
+.product-10 .card-art,.product-10 .detail-visual{background:#c3d4ea}
+.product-11 .card-art,.product-11 .detail-visual{background:#e7d4e4}

@@ -20,3 +20,11 @@ As of 9 November 2026, the homepage is a compact gallery. Dedicated marketing pa
 
 Verified public listing: https://apps.apple.com/us/app/tumblepatch/id6832247736
 Official icon and first iPhone screenshot sourced from Apple Lookup API (US storefront, app 6832247736). Screenshot downloaded at 600 × 900 bounding size. Public description confirms offline puzzles, no ads or subscriptions, and a free sample with a one-time unlock.
+
+## Catalog refresh — 16 November 2026
+
+Added Whisper Live (6833964231), WalkLedger (6832005164), Motoring Shelf
+(6832641002), Night Signal (6834916645), and Shadow Cast (6835032536).
+US App Store listings, icons, and first iPhone screenshots were verified
+through Apple's public listings and lookup metadata. Marketing copy describes
+public app features; see the App Store for current offers and availability.
