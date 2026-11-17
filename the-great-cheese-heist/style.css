@@ -1,0 +1,7 @@
+:root { color-scheme: dark; background: #071a19; color: #fff2d2; font: 1.125rem/1.65 system-ui, sans-serif; }
+main { margin: 8vh auto; padding: 0 1.5rem; max-width: 42rem; }
+h1, h2 { font-family: Georgia, serif; line-height: 1.1; }
+h1 { font-size: clamp(2.5rem, 8vw, 4.6rem); }
+h2 { margin-top: 2rem; }
+a { color: #ffcb79; text-underline-offset: .16em; }
+nav { display: flex; flex-wrap: wrap; gap: 1.5rem; margin-top: 2rem; border-top: 1px solid #765c36; padding-top: 1rem; }
