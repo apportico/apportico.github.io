@@ -1,0 +1,13 @@
+:root {
+    color-scheme: dark;
+    font-family: system-ui, sans-serif;
+    background: #18271f;
+    color: #f5e7cd;
+}
+body { margin: 0; }
+main { max-width: 42rem; margin: auto; padding: 3rem 1.5rem; }
+h1, h2 { font-family: Georgia, serif; font-weight: 500; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 6vw, 3.5rem); }
+h2 { margin-top: 2rem; }
+p { line-height: 1.65; }
+a { color: #f1c883; text-underline-offset: .18em; }
