@@ -1,0 +1,10 @@
+:root {
+    color-scheme: light dark;
+    font: 1rem/1.6 system-ui, sans-serif;
+}
+body { margin: 0; }
+main { max-width: 42rem; margin: auto; padding: 2rem 1.25rem; }
+nav { font-size: 0.9rem; margin-bottom: 2.5rem; }
+h1 { font-family: Georgia, serif; font-size: clamp(2rem, 8vw, 3.4rem); line-height: 1.1; }
+h2 { font-size: 1.15rem; margin-top: 2rem; }
+a { text-underline-offset: 0.15em; }
