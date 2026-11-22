@@ -4,13 +4,35 @@ import json,html
 root=Path(__file__).resolve().parent.parent
 apps=json.loads((root/'apps/catalog.json').read_text())
 e=html.escape
+def landscape_class(app):
+    return ' app-landscape' if app.get('platforms') == ['Apple TV'] else ''
+
+def screenshot_markup(src, alt, *, hero=False):
+    style='detail-screen' if hero else 'gallery-screen'
+    link='screenshot-link' if hero else 'gallery-link'
+    load='' if hero else ' loading="lazy" decoding="async"'
+    width=' width="300"' if hero else ''
+    return f'<a class="{link}" href="{e(src)}" aria-label="Open full screenshot: {e(alt)}"><img class="{style}" src="{e(src)}" alt="{e(alt)}"{width}{load}></a>'
+
+def detail_sections(app):
+    features=app.get('features', [])
+    gallery=app.get('gallery', [])
+    sections=[]
+    if features:
+        items=''.join(f'<li>{e(item)}</li>' for item in features)
+        sections.append(f'<section class="detail-section" aria-labelledby="features-heading"><h2 id="features-heading">Highlights</h2><ul class="feature-list">{items}</ul></section>')
+    if gallery:
+        items=''.join(f'<li>{screenshot_markup(item["src"], item["alt"])}</li>' for item in gallery)
+        sections.append(f'<section class="detail-section" aria-labelledby="screens-heading"><h2 id="screens-heading">More screenshots</h2><ul class="screenshot-gallery">{items}</ul></section>')
+    return ''.join(sections)
+
 arrow='<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M5 19 19 5M5 5h14v14"/></svg>' 
 header='''<header class="wrap"><a class="brand" href="/" aria-label="Apportico home"><img class="official-logo" src="/apps/assets/apportico-logo.png" alt="" width="56" height="56">apportico</a><nav aria-label="Main navigation"><a href="/#about">The studio</a><a href="/#apps" class="nav-pill">All apps <span aria-hidden="true">→</span></a></nav></header>'''
 footer='''<footer class="wrap"><a href="/" class="brand"><img class="official-logo" src="/apps/assets/apportico-logo.png" alt="" width="44" height="44">apportico</a><span>Small apps. More possibility.</span><a href="/#apps">Back to the collection ↑</a></footer>'''
 cards=[]
 for i,a in enumerate(apps):
     url=f'/apps/{a["slug"]}/'
-    cards.append(f'''<article class="app-card product-{i}" id="{a['slug']}"><a class="card-art" href="{url}" aria-label="Explore {e(a['name'])}"><img src="{a['icon']}" alt="" width="112" height="112" loading="lazy"><span class="card-art-label">{e(a['label'])}</span><span class="card-arrow" aria-hidden="true">{arrow}</span></a><div class="card-copy"><span class="category">{a['category']}</span><h3><a href="{url}">{e(a['name'])}</a></h3><p>{a['description']}</p><div class="card-actions"><a class="details-link" href="{url}" aria-label="View {e(a['name'])} details">View details <span aria-hidden="true">→</span></a><a class="card-store" href="{a['store']}" target="_blank" rel="noopener" aria-label="Get {e(a['name'])} on the App Store (opens in new tab)">App Store <span aria-hidden="true">{arrow}</span></a></div></div></article>''')
+    cards.append(f'''<article class="app-card product-{i}{landscape_class(a)}" id="{a['slug']}"><a class="card-art" href="{url}" aria-label="Explore {e(a['name'])}"><img src="{a['icon']}" alt="" width="112" height="112" loading="lazy"><span class="card-art-label">{e(a['label'])}</span><span class="card-arrow" aria-hidden="true">{arrow}</span></a><div class="card-copy"><span class="category">{e(a['category'])}</span><h3><a href="{url}">{e(a['name'])}</a></h3><p>{e(a['description'])}</p><div class="card-actions"><a class="details-link" href="{url}" aria-label="View {e(a['name'])} details">View details <span aria-hidden="true">→</span></a><a class="card-store" href="{a['store']}" target="_blank" rel="noopener" aria-label="Get {e(a['name'])} on the App Store (opens in new tab)">App Store <span aria-hidden="true">{arrow}</span></a></div></div></article>''')
     links=''
     for key,label in [('support','Support'),('privacy','Privacy')]:
         local=f'/{a["slug"]}/{key}.html'
@@ -18,11 +40,16 @@ for i,a in enumerate(apps):
         if href:
             links+=f'<a href="{e(href,quote=True)}">{label}</a>'
     support_nav=f'<nav class="support-links" aria-label="App information">{links}</nav>' if links else '<nav class="support-links" aria-label="App information"></nav>'
-    related=''.join(f'<a class="related-app" href="/apps/{b["slug"]}/"><img src="{b["icon"]}" alt="" width="44" height="44"><span>{e(b["name"])}</span><span aria-hidden="true">{arrow}</span></a>' for b in apps if b!=a)
+    related=''.join(f'<a class="related-app{landscape_class(b)}" href="/apps/{b["slug"]}/"><img src="{b["icon"]}" alt="" width="44" height="44"><span>{e(b["name"])}</span><span aria-hidden="true">{arrow}</span></a>' for b in apps if b!=a)
     title=f'{a["name"]} | Apportico'
-    page=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101114"><title>{e(title)}</title><meta name="description" content="{e(a['description'],quote=True)}"><link rel="canonical" href="https://apportico.com{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(a['description'],quote=True)}"><meta property="og:type" content="website"><meta property="og:url" content="https://apportico.com{url}"><meta property="og:image" content="https://apportico.com{a['icon']}"><meta name="twitter:card" content="summary"><link rel="icon" href="/apps/assets/apportico-logo.png"><link rel="stylesheet" href="/apps/style.css"></head><body><a class="skip" href="#app">Skip to app details</a>{header}<main id="app" class="app-detail wrap"><a class="back-link" href="/#apps">← All apps</a><section class="detail-hero product-{i}" aria-labelledby="app-name"><div class="detail-copy"><div class="detail-identity"><img src="{a['icon']}" alt="{e(a['name'])} app icon" width="76" height="76"><div><span class="category">{a['category']}</span><h1 id="app-name">{e(a['name'])}</h1></div></div><h2 class="detail-headline">{a['headline']}</h2><p class="detail-description">{a['description']}</p>{a['store_html']}<span class="publisher">Published by {e(a['publisher'])}</span><p class="detail-availability">See the App Store for current pricing, device compatibility and availability in your country.</p>{support_nav}</div><div class="detail-visual"><span class="visual-label">{e(a['label'])}</span><a class="screenshot-link" href="{a['screenshot']}" aria-label="View full-size {e(a['name'])} screenshot"><img class="detail-screen" src="{a['screenshot']}" alt="Official {e(a['name'])} App Store screenshot" width="300"></a><span class="screenshot-caption">A closer look · tap to view full size</span></div></section><section class="more-apps" aria-labelledby="more-heading"><div class="section-top"><div><span class="kicker">MORE FROM APPORTICO</span><h2 id="more-heading">Find something else you’ll love.</h2></div><a href="/#apps" class="details-link">All apps →</a></div><div class="related-grid">{related}</div></section></main>{footer}</body></html>'''
+    platforms=a.get('platforms', [])
+    device_info=f'<p class="detail-platforms">{" · ".join(e(device) for device in platforms)}</p>' if platforms else ''
+    lead_screen=screenshot_markup(a['screenshot'],a.get('screenshot_alt',f"Official {a['name']} App Store screenshot"),hero=True)
+    caption=e(a.get('screenshot_caption','App Store screenshot · open full size'))
+    extra_sections=detail_sections(a)
+    page=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#101114"><title>{e(title)}</title><meta name="description" content="{e(a['description'],quote=True)}"><link rel="canonical" href="https://apportico.com{url}"><meta property="og:title" content="{e(title)}"><meta property="og:description" content="{e(a['description'],quote=True)}"><meta property="og:type" content="website"><meta property="og:url" content="https://apportico.com{url}"><meta property="og:image" content="https://apportico.com{a['icon']}"><meta name="twitter:card" content="summary"><link rel="icon" href="/apps/assets/apportico-logo.png"><link rel="stylesheet" href="/apps/style.css"></head><body><a class="skip" href="#app">Skip to app details</a>{header}<main id="app" class="app-detail wrap{landscape_class(a)}"><a class="back-link" href="/#apps">← All apps</a><section class="detail-hero product-{i}" aria-labelledby="app-name"><div class="detail-copy"><div class="detail-identity"><img src="{a['icon']}" alt="{e(a['name'])} app icon" width="76" height="76"><div><span class="category">{e(a['category'])}</span><h1 id="app-name">{e(a['name'])}</h1></div></div><h2 class="detail-headline">{a['headline']}</h2><p class="detail-description">{e(a['description'])}</p>{a['store_html']}{device_info}<span class="publisher">Published by {e(a['publisher'])}</span><p class="detail-availability">See the App Store for current pricing, device compatibility and availability in your country.</p>{support_nav}</div><div class="detail-visual"><span class="visual-label">{e(a['label'])}</span>{lead_screen}<span class="screenshot-caption">{caption}</span></div></section>{extra_sections}<section class="more-apps" aria-labelledby="more-heading"><div class="section-top"><div><span class="kicker">MORE FROM APPORTICO</span><h2 id="more-heading">Find something else you’ll love.</h2></div><a href="/#apps" class="details-link">All apps →</a></div><div class="related-grid">{related}</div></section></main>{footer}</body></html>'''
     dest=root/'apps'/a['slug']; dest.mkdir(exist_ok=True);(dest/'index.html').write_text(page+'\n')
 home=(root/'apps/home-template.html').read_text().replace('{{CATALOG}}','<div class="app-grid">'+''.join(cards)+'</div>')
-home=home.replace('THE COLLECTION / 01—06',f'THE COLLECTION / {len(apps):02} APPS')
+home=home.replace('{{APP_COUNT}}',f'{len(apps)}')
 (root/'index.html').write_text(home+'\n')
 print(f'Generated homepage and {len(apps)} app pages')

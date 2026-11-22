@@ -5,12 +5,33 @@
     "category": "PRODUCTIVITY",
     "icon": "/apps/assets/6831935705.jpg",
     "headline": "Remember when.<br>Get on with now.",
-    "description": "Keep track of the last time you did the everyday things. A simple history, gentle intervals, and no streaks to keep alive.",
+    "description": "Remember the last time you did something, from watering the plants to changing the sheets. See what is coming up without building a streak.",
     "store": "https://apps.apple.com/us/app/whenlet/id6831935705",
     "publisher": "Eduard Simonyan",
     "screenshot": "/apps/assets/6831935705-screen.jpg",
     "label": "Last-done tracking",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/whenlet/id6831935705\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Whenlet on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/whenlet/id6831935705\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Whenlet on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Log a task in one tap, then edit or undo if needed. Leave the last date unknown rather than guessing.",
+      "Give one-off tasks a deadline or set a gentle interval for repeating tasks. Up Next shows what is due.",
+      "Search and correct your history, archive old tasks, or move your records with a backup. No push reminders."
+    ],
+    "screenshot_alt": "Up Next list of repeating and one-off tasks",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6831935705-screen-2.jpg",
+        "alt": "Task details with the last completion and next interval"
+      },
+      {
+        "src": "/apps/assets/6831935705-screen-3.jpg",
+        "alt": "Completion history for a task"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   },
   {
     "slug": "dimensions-planner",
@@ -18,12 +39,34 @@
     "category": "UTILITIES",
     "icon": "/apps/assets/6831661912.jpg",
     "headline": "Every ratio.<br>Just right.",
-    "description": "Calculate dimensions, compare fit and crop, and keep your project sizes together.",
+    "description": "Calculate dimensions from an aspect ratio, preview fit and crop with your own image, and save your sizes by project.",
     "store": "https://apps.apple.com/us/app/dimensions-planner/id6831661912",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6831661912-screen.jpg",
     "label": "Ratios & dimensions",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/dimensions-planner/id6831661912\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Dimensions Planner on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/dimensions-planner/id6831661912\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Dimensions Planner on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Enter a ratio and either dimension to calculate the other.",
+      "Import a photo or file to read its pixel dimensions and compare the whole-image Fit preview with centered Fill.",
+      "Save project presets and export or import portable backups that include the local picture previews."
+    ],
+    "screenshot_alt": "Aspect-ratio calculator with linked width and height",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6831661912-screen-2.jpg",
+        "alt": "Fit preview for an image and target dimensions"
+      },
+      {
+        "src": "/apps/assets/6831661912-screen-3.jpg",
+        "alt": "Planner with an imported image preview"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ],
+    "privacy": "https://syymza.github.io/dimensions-planner-support/privacy.html"
   },
   {
     "slug": "spin-sprout",
@@ -31,12 +74,33 @@
     "category": "UTILITIES",
     "icon": "/apps/assets/6831902087.jpg",
     "headline": "Less deciding.<br>More doing.",
-    "description": "Make a wheel, weight the choices, or run a group round without repeats. Give your next decision a spin.",
+    "description": "Make a custom wheel, weight the choices, or run a group round that removes each pick. Get from deciding to doing.",
     "store": "https://apps.apple.com/us/app/spin-sprout/id6831902087",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6831902087-screen.jpg",
     "label": "Choices & group rounds",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/spin-sprout/id6831902087\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Spin Sprout on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/spin-sprout/id6831902087\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Spin Sprout on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Type or paste your choices and save a wheel for another day.",
+      "Adjust weights, see the odds, and use rounds to avoid repeats. Undo the last pick if needed.",
+      "Share a result or export a backup. The app supports 47 language and regional options."
+    ],
+    "screenshot_alt": "Ready-to-spin decision wheel",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6831902087-screen-2.jpg",
+        "alt": "Group round with picks and remaining choices"
+      },
+      {
+        "src": "/apps/assets/6831902087-screen-3.jpg",
+        "alt": "App language settings"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   },
   {
     "slug": "daycue",
@@ -44,12 +108,33 @@
     "category": "UTILITIES",
     "icon": "/apps/assets/6832012323.jpg",
     "headline": "Your words.<br>Right on time.",
-    "description": "Put personal cues on your Home Screen and Lock Screen, with a different message for each part of your day.",
+    "description": "Put your own words on your Home Screen or Lock Screen, and let the widget change with your schedule.",
     "store": "https://apps.apple.com/us/app/daycue-widget-cues/id6832012323",
     "publisher": "Eduard Simonyan",
     "screenshot": "/apps/assets/6832012323-screen.jpg",
     "label": "Scheduled widget cues",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/daycue-widget-cues/id6832012323\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Daycue on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/daycue-widget-cues/id6832012323\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Daycue on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Choose days and time windows for your cues, including windows that run past midnight.",
+      "Rotate through variations hourly or daily, or pin one cue to a widget all day.",
+      "Adjust color, alignment and text size. Daycue is a visual cue, not an alarm; iOS controls widget refresh timing."
+    ],
+    "screenshot_alt": "Scheduled cues in the app",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6832012323-screen-2.jpg",
+        "alt": "Examples of Home Screen and Lock Screen widgets"
+      },
+      {
+        "src": "/apps/assets/6832012323-screen-3.jpg",
+        "alt": "Cue editor with schedule and appearance settings"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   },
   {
     "slug": "note-porch",
@@ -57,12 +142,35 @@
     "category": "UTILITIES",
     "icon": "/apps/assets/6832109392.jpg",
     "headline": "A little note.<br>Always in view.",
-    "description": "Keep useful notes close at hand with Home Screen and Lock Screen widgets. Choose one note or follow a daily plan.",
+    "description": "Pin a sticky note to a widget or schedule a different note for each part of the day. Take a selected note to your paired Apple Watch if you choose.",
     "store": "https://apps.apple.com/us/app/note-porch/id6832109392",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6832109392-screen.jpg",
     "label": "Notes on your screen",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/note-porch/id6832109392\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Note Porch on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/note-porch/id6832109392\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Note Porch on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Pin one note or build a daily plan with up to 16 times, including overnight.",
+      "Choose colors, alignment and text sizes for Home Screen and Lock Screen widgets.",
+      "Export a backup, preview an import, and add notes without replacing your current plan."
+    ],
+    "screenshot_alt": "Library of sticky notes",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6832109392-screen-2.jpg",
+        "alt": "Daily plan with scheduled notes"
+      },
+      {
+        "src": "/apps/assets/6832109392-screen-3.jpg",
+        "alt": "Backup and recovery options"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Apple Watch companion"
+    ],
+    "privacy": "https://syymza.github.io/note-porch/privacy.html"
   },
   {
     "slug": "pivotile",
@@ -70,25 +178,67 @@
     "category": "GAMES",
     "icon": "/apps/assets/6832112459.jpg",
     "headline": "Make room.<br>Find your next move.",
-    "description": "Place blocks, clear lines, and earn pivots to turn a piece when you need it. A calm, offline puzzle with no ads.",
+    "description": "Clear rows and columns in Classic, where you earn turns, or play Flow, where a fresh piece arrives after every move.",
     "store": "https://apps.apple.com/us/app/pivotile/id6832112459",
     "publisher": "Eduard Simonyan",
     "screenshot": "/apps/assets/6832112459-screen.jpg",
     "label": "Block puzzles with a twist",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/pivotile/id6832112459\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Pivotile on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/pivotile/id6832112459\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Pivotile on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "In Classic, spend a pivot to turn a piece. In Flow, place one piece and immediately get the next.",
+      "Chain clears into combos, switch between Wood, Ocean and Neon themes, and compare scores on separate Game Center leaderboards.",
+      "Play three games a day free. A one-time Pivotile Full purchase unlocks unlimited games."
+    ],
+    "screenshot_alt": "Classic block-placement board with waiting pieces",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6832112459-screen-2.jpg",
+        "alt": "Flow mode with a new piece after each placement"
+      },
+      {
+        "src": "/apps/assets/6832112459-screen-3.jpg",
+        "alt": "Theme choices for the puzzle board"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   },
   {
     "slug": "tumblepatch",
     "name": "Tumblepatch",
-    "category": "GAMES \u00b7 KIDS",
+    "category": "GAMES · KIDS",
     "icon": "/apps/assets/6832247736.jpg",
     "headline": "Piece it together.<br>Watch it come alive.",
-    "description": "Big pieces, little discoveries. Build cars, rockets, dinosaurs and more, then watch them move. Try a puzzle from every group free; unlock them all with one purchase. Offline, with no ads or subscriptions.",
+    "description": "Put big pieces together and watch cars drive, rockets launch and dinosaurs stomp. A calm puzzle toy with 132 puzzles across nine groups.",
     "store": "https://apps.apple.com/us/app/tumblepatch/id6832247736",
     "publisher": "Eduard Simonyan",
     "screenshot": "/apps/assets/6832247736-screen.jpg",
     "label": "Build & play puzzles",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/tumblepatch/id6832247736\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Tumblepatch on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/tumblepatch/id6832247736\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Tumblepatch on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Choose from 3 to 10 pieces, get a hint if needed, and pick up where you left off with Continue.",
+      "Play with the finished toy, move to the next puzzle, or turn off auto-advance. Choose from three gentle music tracks.",
+      "Try free puzzles in every group. One purchase unlocks the full collection; no ads or subscriptions."
+    ],
+    "screenshot_alt": "Tumblepatch puzzle home screen",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6832247736-screen-2.jpg",
+        "alt": "A vehicle puzzle being put together"
+      },
+      {
+        "src": "/apps/assets/6832247736-screen-3.jpg",
+        "alt": "Completed dinosaur puzzle ready to play"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   },
   {
     "slug": "whisper-live",
@@ -96,12 +246,35 @@
     "category": "PRODUCTIVITY",
     "icon": "/apps/assets/6833964231.jpg",
     "headline": "Say it.<br>See it in text.",
-    "description": "Dictate directly into your apps with a voice keyboard that runs on your device. Clean up filler words, use voice commands, and teach it the names you say most.",
+    "description": "Dictate into apps that accept the Whisper Live keyboard. Switch between a full keyboard and a single mic button, with speech processed on your device.",
     "store": "https://apps.apple.com/us/app/whisper-live-voice-keyboard/id6833964231",
     "publisher": "Eduard Simonyan",
     "screenshot": "/apps/assets/6833964231-screen.jpg",
     "label": "On-device voice keyboard",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/whisper-live-voice-keyboard/id6833964231\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Whisper Live on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/whisper-live-voice-keyboard/id6833964231\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Whisper Live on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Start, pause or resume with the mic close to your thumb; use voice-only mode for a larger button.",
+      "Use Apple speech recognition or the optional NVIDIA Parakeet model. Some models need a one-time download.",
+      "Say “new line,” “delete that,” or “change Monday to Tuesday” to edit as you speak.",
+      "Dictate up to 20 times a day for free. Pro adds unlimited dictation and custom templates."
+    ],
+    "screenshot_alt": "Whisper Live main dictation screen with a bottom microphone button",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6833964231-screen-2.jpg",
+        "alt": "Whisper Live keyboard setup guide"
+      },
+      {
+        "src": "/apps/assets/6833964231-screen-3.jpg",
+        "alt": "Dictation settings"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Mac (macOS 26 or later)"
+    ]
   },
   {
     "slug": "walk-ledger",
@@ -109,12 +282,34 @@
     "category": "PRODUCTIVITY",
     "icon": "/apps/assets/6832005164.jpg",
     "headline": "Walk the site.<br>Keep the record.",
-    "description": "Log project issues, notes, and before-and-after photos. Mark up images without altering the originals, then share your project as a PDF.",
+    "description": "Photograph site issues, mark up the evidence without changing originals, and share a PDF punch list from one offline project log.",
     "store": "https://apps.apple.com/us/app/walkledger/id6832005164",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6832005164-screen.jpg",
     "label": "Site walks & project records",
-    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/walkledger/id6832005164\" target=\"_blank\" rel=\"noopener\" aria-label=\"View WalkLedger on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>"
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/walkledger/id6832005164\" target=\"_blank\" rel=\"noopener\" aria-label=\"View WalkLedger on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Keep notes separate from issues and track open or completed work with before-and-after photos.",
+      "Draw on a photo, preserve the original, and build a working PDF report to share.",
+      "Export a backup with original photos and markup, or capture quick notes on a paired Apple Watch."
+    ],
+    "screenshot_alt": "Project list for documenting site inspections",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6832005164-screen-2.jpg",
+        "alt": "Photo markup for an inspection issue"
+      },
+      {
+        "src": "/apps/assets/6832005164-screen-3.jpg",
+        "alt": "PDF report preview with inspection details"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad",
+      "Apple Watch companion"
+    ]
   },
   {
     "slug": "motoring-shelf",
@@ -122,13 +317,34 @@
     "category": "UTILITIES",
     "icon": "/apps/assets/6832641002.jpg",
     "headline": "Fuel, service, receipts.<br>One place for each car.",
-    "description": "Track fuel stops, maintenance and expenses for each vehicle. Attach receipt photos and export your records as a CSV or a service-history PDF.",
+    "description": "Track fuel, servicing, receipts and running costs in a private logbook for each vehicle.",
     "store": "https://apps.apple.com/us/app/motoring-shelf/id6832641002",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6832641002-screen.jpg",
     "label": "Vehicle costs & maintenance",
     "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/motoring-shelf/id6832641002\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Motoring Shelf on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
-    "privacy": "https://syymza.github.io/motoring-shelf/privacy.html"
+    "privacy": "https://syymza.github.io/motoring-shelf/privacy.html",
+    "features": [
+      "Record full or partial fill-ups, track fuel economy, and view spending by category.",
+      "Set a service target by date or odometer reading and attach related receipt photos.",
+      "Export a CSV of your records, a service-history PDF with receipt images, or a full backup."
+    ],
+    "screenshot_alt": "Vehicle dashboard with maintenance and expenses",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6832641002-screen-2.jpg",
+        "alt": "Details of a recorded fuel stop"
+      },
+      {
+        "src": "/apps/assets/6832641002-screen-3.jpg",
+        "alt": "Vehicle record showing service targets"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   },
   {
     "slug": "night-signal",
@@ -136,14 +352,34 @@
     "category": "GAMES",
     "icon": "/apps/assets/6834916645.jpg",
     "headline": "Set the switches.<br>Send the trains.",
-    "description": "Plan routes and departure times on a railway after dark. Check the timetable, then send the trains and see whether your plan keeps them clear of one another.",
+    "description": "Set switches and stagger departures. Then watch your plan play out and guide every train to its station.",
     "store": "https://apps.apple.com/us/app/night-signal-train-puzzles/id6834916645",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6834916645-screen.jpg",
     "label": "Railway scheduling puzzles",
     "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/night-signal-train-puzzles/id6834916645\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Night Signal on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
     "support": "/night-signal/en/support.html",
-    "privacy": "/night-signal/en/privacy.html"
+    "privacy": "/night-signal/en/privacy.html",
+    "features": [
+      "Read the timetable, choose departure times and decide who crosses first.",
+      "Try 12 included puzzles. One Full Game purchase adds 108 across six chapters.",
+      "Revisit unlocked puzzles as the tracks introduce more trains, detours and signals. No ads or subscription."
+    ],
+    "screenshot_alt": "An early railway puzzle at night",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6834916645-screen-2.jpg",
+        "alt": "A railway puzzle with intersecting tracks"
+      },
+      {
+        "src": "/apps/assets/6834916645-screen-3.jpg",
+        "alt": "A later railway puzzle with more routes"
+      }
+    ],
+    "platforms": [
+      "iPhone"
+    ]
   },
   {
     "slug": "shadow-cast",
@@ -151,13 +387,201 @@
     "category": "GAMES",
     "icon": "/apps/assets/6835032536.jpg",
     "headline": "Move the light.<br>Find the silhouette.",
-    "description": "Rotate pieces on a theatre workbench and move the lamp until their shadows fit the outline. Find cats, bicycles, rooftops and more.",
+    "description": "Move the lamp and rotate pieces to uncover familiar silhouettes on a miniature theatre stage.",
     "store": "https://apps.apple.com/us/app/shadow-cast-silhouettes/id6835032536",
     "publisher": "Daniele Zanni",
     "screenshot": "/apps/assets/6835032536-screen.jpg",
     "label": "Light & silhouette puzzles",
     "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/shadow-cast-silhouettes/id6835032536\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Shadow Cast on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
     "support": "/shadow-cast/en/support.html",
-    "privacy": "/shadow-cast/en/privacy.html"
+    "privacy": "/shadow-cast/en/privacy.html",
+    "features": [
+      "Use the light angle and the shape of each piece to match the outline.",
+      "Start with 20 included puzzles. An optional one-time purchase adds 100 across four chapters.",
+      "Play offline after installing; progress stays on the device."
+    ],
+    "screenshot_alt": "Shadow Cast puzzle on a miniature stage",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6835032536-screen-2.jpg",
+        "alt": "Pieces and a silhouette on the Shadow Cast stage"
+      },
+      {
+        "src": "/apps/assets/6835032536-screen-3.jpg",
+        "alt": "Another silhouette puzzle on the theatre stage"
+      }
+    ],
+    "platforms": [
+      "iPhone"
+    ]
+  },
+  {
+    "slug": "snowball-yard",
+    "name": "Snowball Yard",
+    "category": "GAMES",
+    "icon": "/apps/assets/6835101315.jpg",
+    "headline": "Roll a snowball.<br>Build a snowman.",
+    "description": "Roll snowballs across snowy yards and stack them into a snowman. Plan around ice, shrinking paths and gates that only fit small balls.",
+    "store": "https://apps.apple.com/us/app/snowball-yard/id6835101315",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6835101315-screen.jpg",
+    "label": "Snowy route puzzles",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/snowball-yard/id6835101315\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Snowball Yard on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "support": "/snowball-yard/en/support.html",
+    "privacy": "/snowball-yard/en/privacy.html",
+    "features": [
+      "Fresh snow grows a snowball, but the snow behind it does not come back.",
+      "Tap to see possible moves and roll with a swipe or an arrow. Undo a move whenever you need to.",
+      "Try 12 yards for free. A one-time purchase adds 100 puzzles across five chapters."
+    ],
+    "screenshot_alt": "A snowman and rolling routes in Snowball Yard",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6835101315-screen-2.jpg",
+        "alt": "A yard with patches of fresh snow"
+      },
+      {
+        "src": "/apps/assets/6835101315-screen-3.jpg",
+        "alt": "A puzzle with an ice route"
+      }
+    ],
+    "platforms": [
+      "iPhone"
+    ]
+  },
+  {
+    "slug": "counterlift",
+    "name": "Counterlift",
+    "category": "GAMES · APPLE TV",
+    "icon": "/apps/assets/6834780119.jpg",
+    "headline": "Two lifts.<br>One cable.",
+    "description": "Two lifts share one cable. When one goes up, the other comes down. Find the right stops to get every passenger home.",
+    "store": "https://apps.apple.com/us/app/counterlift/id6834780119",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6834780119-screen.jpg",
+    "label": "Linked-lift puzzles",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/counterlift/id6834780119\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Counterlift on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Pick up passengers and plan floor stops for the linked lifts.",
+      "Try 20 puzzles for free. One purchase adds 108 across four chapters.",
+      "Replay unlocked puzzles to beat move targets or compare scores with Game Center. Play offline without ads or subscriptions."
+    ],
+    "screenshot_alt": "Counterlift elevator puzzle on the Apple TV",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6834780119-screen-2.jpg",
+        "alt": "A second puzzle with linked lifts"
+      },
+      {
+        "src": "/apps/assets/6834780119-screen-3.jpg",
+        "alt": "A later Counterlift route puzzle"
+      }
+    ],
+    "platforms": [
+      "Apple TV"
+    ]
+  },
+  {
+    "slug": "candle-gremlins",
+    "name": "Candle Gremlins",
+    "category": "GAMES · APPLE TV",
+    "icon": "/apps/assets/6835648838.jpg",
+    "headline": "Aim, throw.<br>Haunt the manor.",
+    "description": "Play as a ghost and knock out candle gremlins with well-aimed throws and falling furniture.",
+    "store": "https://apps.apple.com/us/app/candle-gremlins-haunted-manor/id6835648838",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6835648838-screen.jpg",
+    "label": "Haunted physics puzzles",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/candle-gremlins-haunted-manor/id6835648838\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Candle Gremlins on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "support": "/pocket-poltergeist/support.html",
+    "privacy": "/pocket-poltergeist/privacy.html",
+    "features": [
+      "Aim and set power with the Siri Remote, then trigger the object’s special move while it is in flight.",
+      "Break glass, beams or supports to make the room work for you, and plan around objects left in your path.",
+      "Try 20 rooms for free. One Night Shift purchase adds 100 more, with optional Game Center achievements and leaderboards."
+    ],
+    "screenshot_alt": "A candle gremlin puzzle in the manor",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6835648838-screen-2.jpg",
+        "alt": "Another room in Candle Gremlins"
+      }
+    ],
+    "platforms": [
+      "Apple TV"
+    ]
+  },
+  {
+    "slug": "quiet-wild",
+    "name": "The Quiet Wild",
+    "category": "GAMES · APPLE TV",
+    "icon": "/apps/assets/6836061138.jpg",
+    "headline": "Piece together<br>a wilder world.",
+    "description": "Solve illustrated wildlife jigsaws on Apple TV, then open the field notes to meet the animals behind the pictures.",
+    "store": "https://apps.apple.com/us/app/the-quiet-wild/id6836061138",
+    "publisher": "Daniele Zanni",
+    "screenshot": "/apps/assets/6836061138-screen-2.jpg",
+    "label": "Illustrated wildlife jigsaws",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/the-quiet-wild/id6836061138\" target=\"_blank\" rel=\"noopener\" aria-label=\"View The Quiet Wild on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "support": "/quiet-wild/en/support.html",
+    "privacy": "/quiet-wild/en/privacy.html",
+    "features": [
+      "Pick up pieces with the Siri Remote. Keep them upright for a simpler puzzle or turn on rotation for more challenge.",
+      "Read field notes about habitats, threats and conservation after completing a puzzle.",
+      "Start in California and Baja California. Other expeditions are available as one-time purchases."
+    ],
+    "screenshot_alt": "Jigsaw board and piece tray on Apple TV",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6836061138-screen.jpg",
+        "alt": "The Quiet Wild opening screen on Apple TV"
+      },
+      {
+        "src": "/apps/assets/6836061138-screen-3.jpg",
+        "alt": "Expedition overview and wildlife puzzle list"
+      }
+    ],
+    "platforms": [
+      "Apple TV"
+    ]
+  },
+  {
+    "slug": "drawbright",
+    "name": "Drawbright",
+    "category": "EDUCATION · KIDS",
+    "icon": "/apps/assets/6835473298.jpg",
+    "headline": "One line at a time.<br>Make it yours.",
+    "description": "Follow Brighty the pencil, trace each step, then color in your own drawing. Explore 81 lessons in eight worlds, from dinosaurs to space.",
+    "store": "https://apps.apple.com/us/app/drawbright-learn-to-draw/id6835473298",
+    "publisher": "Eduard Simonyan",
+    "screenshot": "/apps/assets/6835473298-screen.jpg",
+    "label": "Step-by-step drawing",
+    "store_html": "<a class=\"store\" href=\"https://apps.apple.com/us/app/drawbright-learn-to-draw/id6835473298\" target=\"_blank\" rel=\"noopener\" aria-label=\"View Drawbright on the App Store\"><svg width=\"22\" height=\"24\" viewBox=\"0 0 24 24\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M17.1 12.5c0-2.2 1.8-3.3 1.9-3.4-1-1.5-2.6-1.7-3.2-1.7-1.4-.2-2.8.9-3.5.9-.7 0-1.8-.9-3-.9-1.5 0-2.9.9-3.7 2.2-1.6 2.7-.4 6.7 1.1 8.9.8 1.1 1.6 2.3 2.8 2.3 1.1-.1 1.6-.7 3-.7s1.8.7 3 .7 2-1.1 2.7-2.2c.9-1.2 1.3-2.5 1.3-2.6-.1 0-2.4-.9-2.4-3.5ZM14.8 5.9c.6-.8 1.1-1.9 1-2.9-1 .1-2.2.7-2.9 1.5-.6.7-1.2 1.8-1 2.8 1.1.1 2.2-.6 2.9-1.4Z\"/></svg><span><small>Available on the</small>App Store</span><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.6\" aria-hidden=\"true\"><path d=\"M5 19 19 5M5 5h14v14\"/></svg></a>",
+    "features": [
+      "Let Show Me demonstrate the next line. Touch the board whenever you are ready to take over.",
+      "Practice drawing fundamentals, numbers and letters. The ABC matches your device language where supported.",
+      "Finish on a layered canvas with undo, export and time-lapse. The first three lessons in each world are free; Drawbright Plus is a subscription."
+    ],
+    "screenshot_alt": "Drawbright start screen and lesson worlds",
+    "screenshot_caption": "Official App Store preview. Select to open full size.",
+    "gallery": [
+      {
+        "src": "/apps/assets/6835473298-screen-2.jpg",
+        "alt": "A step-by-step drawing lesson with a tracing guide"
+      },
+      {
+        "src": "/apps/assets/6835473298-screen-3.jpg",
+        "alt": "Letter drawing lessons"
+      }
+    ],
+    "platforms": [
+      "iPhone",
+      "iPad"
+    ]
   }
 ]

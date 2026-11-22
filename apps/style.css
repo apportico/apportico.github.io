@@ -22,3 +22,26 @@
 .product-9 .card-art,.product-9 .detail-visual{background:#e8d9c4}
 .product-10 .card-art,.product-10 .detail-visual{background:#c3d4ea}
 .product-11 .card-art,.product-11 .detail-visual{background:#e7d4e4}
+
+/* App-specific material without adding density to the collection cards. */
+.detail-platforms{color:#c7cad4;font-size:.875rem;line-height:1.5;margin:16px 0 0}
+.detail-section{border-top:1px solid var(--line);padding:32px 0 44px}
+.detail-section>h2{margin:0 0 20px}
+.feature-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px 30px;margin:0;padding-left:1.25rem;color:#c5c7d0;font-size:1rem;line-height:1.55}
+.feature-list li{padding-left:.25rem;overflow-wrap:anywhere}
+.feature-list li::marker{color:var(--lime)}
+.screenshot-gallery{list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,200px),1fr));gap:18px;margin:0;padding:0}
+.screenshot-gallery li{min-width:0;display:flex;align-items:center;justify-content:center;padding:16px;background:#191a1f;border:1px solid #303138;border-radius:16px}
+.gallery-link{display:block;border-radius:10px;max-width:100%}
+.gallery-screen{display:block;width:auto;max-width:100%;height:auto;max-height:440px;border-radius:10px}
+@media(max-width:560px){.detail-section{padding:26px 0 32px}.feature-list{grid-template-columns:1fr}.screenshot-gallery{grid-template-columns:repeat(auto-fit,minmax(min(100%,125px),1fr));gap:10px}.screenshot-gallery li{padding:10px}}
+
+/* tvOS uses landscape artwork rather than a portrait phone frame. */
+.app-card.app-landscape .card-art img{width:min(156px,65%);height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:12px}
+.app-detail.app-landscape .detail-identity img{width:clamp(70px,10vw,104px);height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:9px}
+.app-detail.app-landscape .detail-visual{padding-inline:clamp(12px,3vw,32px)}
+.app-detail.app-landscape .screenshot-link{width:100%}
+.app-detail.app-landscape .detail-screen{border-width:3px;border-radius:12px}
+.app-detail.app-landscape .screenshot-gallery{grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr))}
+.app-detail.app-landscape .gallery-screen{width:100%;aspect-ratio:16/9;object-fit:contain}
+.related-app.app-landscape img{width:52px;height:auto;aspect-ratio:16/9;object-fit:contain;border-radius:5px}
