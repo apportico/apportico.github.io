@@ -28,3 +28,22 @@ Added Whisper Live (6833964231), WalkLedger (6832005164), Motoring Shelf
 US App Store listings, icons, and first iPhone screenshots were verified
 through Apple's public listings and lookup metadata. Marketing copy describes
 public app features; see the App Store for current offers and availability.
+
+## Catalog and design refresh: November 22, 2026
+
+Reviewed the 17 published apps in the US and UAE storefronts for the two
+existing catalog publishers: [Eduard Simonyan](https://apps.apple.com/us/developer/eduard-simonyan/id1344536934)
+and [Daniele Zanni](https://apps.apple.com/us/developer/daniele-zanni/id6831260606).
+Added Drawbright, Snowball Yard, Counterlift, Candle Gremlins, and The Quiet
+Wild. Support and privacy routes were not moved. Apple TV-only products use
+their native landscape previews.
+
+Current highlights were checked against public Apple listing descriptions
+and release notes. In particular, Whisper Live 1.4, Pivotile 1.5, Tumblepatch
+1.3 and Drawbright 1.3 are public releases. Nothing from unreleased builds is
+included. Artwork and previews are Apple App Store assets, not recreated
+UI. To trace a file, take the numerical app ID from its filename and look
+it up at `https://itunes.apple.com/lookup?id=APP_ID&country=us&entity=software`.
+Use `artworkUrl512` for icons and `screenshotUrls` or
+`appletvScreenshotUrls` for the matching device previews. Larger CDN sizes
+of the same source images were saved as optimized JPEGs without cropping.
