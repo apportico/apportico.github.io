@@ -2,6 +2,7 @@
 from pathlib import Path
 from html.parser import HTMLParser
 from urllib.parse import urlsplit,unquote
+from xml.etree import ElementTree
 import json
 root=Path(__file__).resolve().parent.parent
 apps=json.loads((root/'apps/catalog.json').read_text())
@@ -28,6 +29,20 @@ for file in [root/'index.html']+[root/'apps'/a['slug']/'index.html' for a in app
 for a in apps:
  assert a['store'].startswith('https://apps.apple.com/')
  assert (root/'apps'/a['slug']/'index.html').exists()
+sitemap=ElementTree.parse(root/'sitemap.xml')
+locations=[node.text for node in sitemap.findall('{*}url/{*}loc')]
+expected=['https://apportico.com/']+[f'https://apportico.com/apps/{a["slug"]}/' for a in apps]
+assert locations==expected and len(locations)==len(set(locations))
+assert 'Sitemap: https://apportico.com/sitemap.xml' in (root/'robots.txt').read_text()
+for a, canonical in zip(apps, expected[1:]):
+ page=(root/'apps'/a['slug']/'index.html').read_text()
+ assert f'rel="canonical" href="{canonical}"' in page
+ schema=json.loads(page.split('<script type="application/ld+json">',1)[1].split('</script>',1)[0])
+ assert schema['@type']=='SoftwareApplication' and schema['url']==canonical and schema['installUrl']==a['store']
+ assert schema['publisher']['name']==a['publisher']
+ assert a['screenshot_device'] in a['devices'] and len(a['use_cases'])==2
+ support=a.get('support')
+ assert not support or support.startswith('https://') or (support.startswith('/') and not support.startswith('//'))
 assert (root/'CNAME').read_text().strip()=='apportico.com'
 assert 'window.location.replace' in (root/'apps/index.html').read_text()
-print(f'PASS: {len(apps)} app routes; all local links/assets/anchors; one H1 per page; CNAME; legacy redirect')
+print(f'PASS: {len(apps)} app routes, local links and assets, canonical URLs, sitemap, structured data, CNAME and legacy redirect')

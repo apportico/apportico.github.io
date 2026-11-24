@@ -22,3 +22,15 @@
 .product-9 .card-art,.product-9 .detail-visual{background:#e8d9c4}
 .product-10 .card-art,.product-10 .detail-visual{background:#c3d4ea}
 .product-11 .card-art,.product-11 .detail-visual{background:#e7d4e4}
+.product-12 .card-art,.product-12 .detail-visual{background:#e2eac9}
+.product-13 .card-art,.product-13 .detail-visual{background:#d8e8f5}
+.product-14 .card-art,.product-14 .detail-visual{background:#c6e8d8}
+.product-15 .card-art,.product-15 .detail-visual{background:#e3e7c9}
+.product-16 .card-art,.product-16 .detail-visual{background:#f1dcb1}
+.product-17 .card-art,.product-17 .detail-visual{background:#ded1ed}
+.product-18 .card-art,.product-18 .detail-visual{background:#cbddec}
+.card-art img,.detail-identity img,.related-app img{object-fit:contain}
+.card-copy .card-platforms{color:#b6bdc5;font-size:.82rem;margin:0 0 9px}
+.detail-identity h1 span{display:block;color:#b6bdc5;font-size:.45em;font-weight:550;letter-spacing:0;margin-top:7px}
+.detail-use-cases{color:#d0d2d7;line-height:1.55;margin:0 0 23px;padding-left:20px}
+.detail-use-cases li+li{margin-top:6px}
