@@ -1,0 +1,12 @@
+:root {
+  color-scheme: dark;
+  font-family: system-ui, sans-serif;
+  background: #101616;
+  color: #f4f4ee;
+}
+body { margin: 0; padding: 2rem 1.25rem 4rem; }
+main { max-width: 42rem; margin: auto; }
+h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.1; }
+h2 { font-size: 1.3rem; margin-top: 1.8rem; }
+p { color: #d3dcd8; line-height: 1.65; }
+a { color: #dcef9a; text-underline-offset: 0.15em; }
