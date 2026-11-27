@@ -1,0 +1,9 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #132e3c; background: #f5f4ee; font: 1.05rem/1.6 system-ui, sans-serif; }
+main { max-width: 45rem; margin: 0 auto; padding: clamp(1.25rem, 5vw, 4rem); }
+header, footer { display: flex; flex-wrap: wrap; gap: 1rem; border-bottom: 1px solid #b8c5c7; padding-bottom: 1rem; }
+footer { border: 0; border-top: 1px solid #b8c5c7; margin-top: 2.5rem; padding-top: 1rem; }
+h1, h2 { font-family: Georgia, serif; line-height: 1.15; }
+h1 { font-size: clamp(2.25rem, 8vw, 4.5rem); letter-spacing: -.035em; }
+h2 { margin-top: 1.7em; }
+a { color: #255062; text-underline-offset: .15em; }
